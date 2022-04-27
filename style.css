@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f2f2f2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: 1.5rem;
+
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+.logo{
+    padding-top: 1rem;
+    width: 10rem;
+    margin: auto;
+    display: block;
+}
+
+.bg{
+    background-image: url("img/banner.png");
+    width: 100%;
+    background-position: center;
+}
+.comoFunciona, .vantagem{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 60px;
+}
+.comoFuncionaImg{
+    width: 20%;
+    border-radius: 100%;
+
+}
+
+.cta1, .cta2{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    text-align: center;
+    padding: 25px;
+}
+.comoFuncionaImg2{
+    width: 50%;
+    border-radius: 100%;
+    justify-self: center;
+    margin: auto;
+    display: block;
+}
+.publico{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+.comoFuncionaImg3{
+    width: 30%;
+    border-radius: 100%;
+}
+.contato{
+    background-color: rgb(50, 63, 241);
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(87, 87, 87, 0.055) 0px 0px 2px 2px;
+}
+.icon{
+    width: 8%;
+    display: flex;
+}
