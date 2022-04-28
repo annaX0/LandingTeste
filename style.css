@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -13,6 +16,11 @@ h2{
 h3{
     font-size: 1rem;
     font-weight: 500;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
 }
 a{
     text-decoration: none;
@@ -30,7 +38,7 @@ input{
 }
 .logo{
     padding-top: 1rem;
-    width: 10rem;
+    width: 7rem;
     margin: auto;
     display: block;
 }
@@ -44,8 +52,8 @@ input{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap: 20px;
-    padding: 60px;
+    padding: 2rem;
+
 }
 .comoFuncionaImg{
     width: 20%;
@@ -55,7 +63,7 @@ input{
 
 .cta1, .cta2{
     color: rgb(255, 255, 255);
-    background-color: blue;
+    background-color: rgb(0, 0, 71);
     text-align: center;
     padding: 25px;
 }
@@ -72,20 +80,101 @@ input{
     justify-content:space-between;
     align-items: center;
     gap: 20px;
-    padding: 40px;
+    padding: 3rem;
 }
 .comoFuncionaImg3{
     width: 30%;
     border-radius: 100%;
 }
 .contato{
-    background-color: rgb(50, 63, 241);
+    background-color: rgb(0, 0, 71);
     padding: 20px;
     margin: 50px;
     border-radius: 15px;
     box-shadow: rgba(87, 87, 87, 0.055) 0px 0px 2px 2px;
+    text-align: center;
+    color: #fff;
 }
 .icon{
     width: 8%;
     display: flex;
+    
+}
+.duvidas{
+    background-color: #313131;
+    padding: 5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    color: #f2f2f2;
+}
+.cardDuvidas1, .cardDuvidas2, .cardDuvidas3, .cardDuvidas4{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.rodape{
+    background-color: #d1d1d1;
+    padding: 1rem;
+    text-align: center;
+}
+.iconeSocial{
+    width: 3%;
+}
+.txtDuvida{
+    font-weight: bolder;
+    align-self: center;
+    color: rgb(188, 215, 241);  
+    box-shadow: rgba(87, 87, 87, 0.055) 0px 0px 2px 2px;
+      
+}
+.line{
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 4px;
+}
+.whats{
+    width: 5%;
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+    transition: .5s;
+}
+.whats:hover {
+    right: 1%;
+    bottom: 7%;
+    transition: .5s;
+}
+.up{
+    position: fixed;
+    right: 2%;
+    bottom: 18%;
+    transition: .5s;
+    background-color: #c4d1ee;
+    border-radius: 100%;
+    padding: 10px;
+}
+.up:hover {
+    right: 2%;
+    bottom: 19%;
+    transition: .5s;
+}
+.btn{
+    background-color: transparent;
+    border: #fff solid 2px;
+    color: #fff;
+}
+.btn:hover{
+    color: rgb(151, 166, 216);
+    transition: 0.10;
+    border:rgb(151, 166, 216) solid 2px;
+}
+
+.btnEnvia:hover{
+    background-color: rgb(149, 176, 235);
+    color: rgb(2, 2, 143);
+    font-weight: bold;
+}
+.titleDuvida{
+    text-align: center;
+
 }
